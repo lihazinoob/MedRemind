@@ -1,50 +1,33 @@
-# Welcome to your Expo app 👋
+# 💊 MedTrack – Your Personal Medication Manager
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+MedTrack is a cross-platform mobile application designed to help users stay on top of their medication schedules with smart reminders, refill alerts, and secure data tracking. Built using React Native and powered by Expo, MedTrack offers a smooth, secure, and modern user experience on both iOS and Android devices.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Key Features
 
-   ```bash
-   npm install
-   ```
+- **⏰ Medication Scheduling** – Set custom reminders for multiple medications.
+- **💊 Refill Tracking** – Monitor supply levels and get notified when it's time to restock.
+- **📱 Cross-Platform Support** – Works seamlessly on both iOS and Android.
+- **🔒 Biometric Authentication** – Face ID/Touch ID support for secure access.
+- **📈 Daily Progress Tracking** – Visualize adherence and medication history.
+- **🗓️ Calendar Integration** – Manage doses with a calendar view.
+- **🗂️ Secure Local Storage** – Data is safely stored using AsyncStorage.
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 🧰 Tech Stack
 
-In the output, you'll find options to open the app in a
+| Tech | Description |
+|------|-------------|
+| **React Native** | Cross-platform mobile development framework |
+| **Expo** | Tooling and native capabilities for React Native |
+| **TypeScript** | Type-safe development for cleaner code |
+| **React Navigation** | Seamless screen transitions and routing |
+| **Expo Notifications** | Push notifications for medication alerts |
+| **AsyncStorage** | Local data storage for offline access |
+| **React Native Reanimated** | Performance-optimized animations |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
